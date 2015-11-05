@@ -12,7 +12,7 @@ Vagrant.configure(2) do |config|
   config.vm.provider "virtualbox" do |v|
      v.memory = 8192
      v.cpus = 3
-     v.name = "ceilosca_test"
+     v.name = "devstack_test"
   end
 
 end
