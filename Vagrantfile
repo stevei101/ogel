@@ -7,7 +7,7 @@
 # you're doing.
 Vagrant.configure(2) do |config|
 
-  config.vm.box = "ubuntu/vivid64"
+  config.vm.box = "puppetlabs/centos-6.6-64-puppet"
 
   config.vm.provider "virtualbox" do |v|
      v.memory = 4096
