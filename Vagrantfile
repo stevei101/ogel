@@ -7,12 +7,12 @@
 # you're doing.
 Vagrant.configure(2) do |config|
 
-  config.vm.box = "ubuntu/vivid64"
+  config.vm.box = "phusion/ubuntu-14.04-amd64"
 
   config.vm.provider "virtualbox" do |v|
      v.memory = 4096
      v.cpus = 1
-     v.name = "vm"
+     v.name = "dvm"
   end
 
 end
